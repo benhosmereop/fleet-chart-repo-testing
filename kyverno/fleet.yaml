@@ -13,6 +13,4 @@ targetCustomizations:
         seccompProfile: null
       cleanupController:
         seccompProfile: null
-clusterSelector:
-  matchLabels:
-    kubernetes.io/hostname: rke2.192.168.100.23.nip.io
+cluserName: rke2.192.168.100.23.nip.io
