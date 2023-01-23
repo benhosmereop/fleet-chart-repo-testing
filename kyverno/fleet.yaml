@@ -1,6 +1,6 @@
 namespace: kyverno
 helm:
-  chart: https://github.com/kyverno/kyverno/releases/download/v1.8.5/kyverno-cli_v1.8.5_linux_x86_64.tar.gz
+  chart: https://raw.githubusercontent.com/kyverno/kyverno/main/charts/kyverno/
 targetCustomizations:
 - name: cis
   helm:
