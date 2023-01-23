@@ -1,0 +1,13 @@
+namespace: kyverno
+helm:
+  chart: https://github.com/kyverno/kyverno/tree/main/charts/kyverno
+targetCustomizations:
+- name: cis
+  helm:
+    values:
+      securityContext:
+        seccompProfile: null
+      testSecurityContext:
+        seccompProfile: null
+      cleanupController:
+        seccompProfile: null
