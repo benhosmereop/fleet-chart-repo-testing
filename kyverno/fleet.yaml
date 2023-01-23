@@ -1,6 +1,8 @@
+# See https://fleet.rancher.io/gitrepo-structure
 namespace: kyverno
 helm:
-  chart: https://raw.githubusercontent.com/kyverno/kyverno/main/charts/kyverno/
+  repo: https://kyverno.github.io/kyverno/
+  chart: kyverno/kyverno
 targetCustomizations:
 - name: cis
   helm:
