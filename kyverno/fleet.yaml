@@ -2,7 +2,7 @@
 namespace: kyverno
 helm:
   repo: https://kyverno.github.io/kyverno/
-  chart: kyverno/kyverno
+  chart: kyverno
 targetCustomizations:
 - name: cis
   helm:
