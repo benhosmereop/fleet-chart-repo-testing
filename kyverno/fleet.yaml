@@ -13,4 +13,5 @@ targetCustomizations:
         seccompProfile: null
       cleanupController:
         seccompProfile: null
-  clusterSelector: {}
+  #clusterSelector: {}
+clusterName: architecture
