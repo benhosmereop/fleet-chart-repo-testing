@@ -6,9 +6,11 @@ targetCustomizations:
 - name: cis
   helm:
     values:
+      namespaceOverride: kyverno
       securityContext:
         seccompProfile: null
       testSecurityContext:
         seccompProfile: null
       cleanupController:
         seccompProfile: null
+  clusterSelector: {}
