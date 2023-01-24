@@ -13,4 +13,3 @@ targetCustomizations:
         seccompProfile: null
       cleanupController:
         seccompProfile: null
-cluserName: rke2.192.168.100.23.nip.io
