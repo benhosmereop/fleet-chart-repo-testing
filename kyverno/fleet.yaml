@@ -1,6 +1,7 @@
 # See https://fleet.rancher.io/gitrepo-structure
 namespace: kyverno
 helm:
+  releaseName: kyverno
   repo: https://kyverno.github.io/kyverno/
   chart: kyverno
   values:
