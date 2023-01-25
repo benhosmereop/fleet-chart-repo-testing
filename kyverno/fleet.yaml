@@ -1,5 +1,5 @@
 # See https://fleet.rancher.io/gitrepo-structure
-namespace: kyverno
+defaultNamespace: kyverno #@TODO this seems to conflict with the docs
 helm:
   releaseName: kyverno
   repo: https://kyverno.github.io/kyverno/
