@@ -1,0 +1,14 @@
+apiVersion: fleet.cattle.io/v1alpha1
+kind: GitRepo
+metadata:
+  name: kyverno-fleet
+  namespace: fleet-default
+spec:
+  branch: main
+  insecureSkipTLSVerify: false
+  paths:
+    - kyverno/
+    #- kyverno-policies/
+  repo: https://github.com/benhosmereop/fleet-chart-repo-testing.git
+  targets:
+    - clusterName: architecture
