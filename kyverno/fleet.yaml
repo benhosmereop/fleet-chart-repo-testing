@@ -14,4 +14,5 @@ targetCustomizations:
       cleanupController:
         seccompProfile: null
   #clusterSelector: {}
-clusterName: local
+  # kubernetes.io/hostname: rke2.192.168.100.23.nip.io 
+clusterName: rke2.192.168.100.23.nip.io
