@@ -2,19 +2,11 @@
 helm:
   repo: https://kyverno.github.io/kyverno/
   chart: kyverno
-targetCustomizations:
-- name: cis
-  helm:
-    values:
-      namespaceOverride: kyverno
-      securityContext:
-        seccompProfile: null
-      testSecurityContext:
-        seccompProfile: null
-      cleanupController:
-        seccompProfile: null
-  #clusterSelector: {}
-  clusterSelector:
-    matchLabels:
-      kubernetes.io/hostname: rke2.192.168.100.23.nip.io
-#clusterName: rke2.192.168.100.23.nip.io
+  values:
+    namespaceOverride: kyverno
+    securityContext:
+      seccompProfile: null
+    testSecurityContext:
+      seccompProfile: null
+    cleanupController:
+      seccompProfile: null
