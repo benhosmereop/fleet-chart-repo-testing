@@ -1,7 +1,8 @@
 # See https://fleet.rancher.io/gitrepo-structure
+#- clusterName: architecture # ?
 defaultNamespace: kyverno #@TODO this seems to conflict with the docs
 helm:
-  releaseName: kyverno
+  #releaseName: kyverno
   repo: https://kyverno.github.io/kyverno/
   chart: kyverno
   values:
